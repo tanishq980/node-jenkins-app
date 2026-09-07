@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 const APP_NAME = process.env.APP_NAME || 'Node Jenkins App';
 
 app.get('/', (req, res) => {
-    res.send(`${APP_NAME} is running successfully!-CI/CD Test2!');
+    res.send(`${APP_NAME} is running successfully!-CI/CD Test2!`);
 });
 
 app.get('/health', (req, res) => {
